@@ -6,7 +6,7 @@ const Blog = require('./model/blogSchema')
 
 //express app
 const app = express();
-const db = 'mongodb+srv://timidbrain:timothy12345@cluster0.1wrpd.mongodb.net/Node?retryWrites=true&w=majority';
+const db = 'mongodb+srv://****:****@cluster0.1wrpd.mongodb.net/Node?retryWrites=true&w=majority';
 mongoose.connect(db)
 .then((result) => app.listen(5000), console.log('Listening to port 5000'))
 .catch((err) => console.log(err));
